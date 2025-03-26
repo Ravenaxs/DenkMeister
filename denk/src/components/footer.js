@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#340F16] text-[#C02042] py-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
-        
+
         {/* Seção Denk Meister */}
         <div>
           <h6 className="font-semibold text-[#C02042] mb-4">Denk Meister</h6>
@@ -19,9 +19,9 @@ const Footer = () => {
             <Link href={githubUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
               <img src="/icon.github.svg" alt="GitHub" className="h-6 w-6 fill-[#C02042] hover:fill-[#901430]" />
             </a></Link>
-            <Link href={linkedinUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
-              <img src="/icon.likedln.svg" alt="LinkedIn" className="h-6 w-6 fill-[#C02042] hover:fill-[#901430]" />
-            </a></Link>
+           {/* <Link href={linkedinUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
+              <img src="/icon.linkedin.svg" alt="LinkedIn" className="h-6 w-6 fill-[#C02042] hover:fill-[#901430]" />
+            </a></Link> */  }
             <Link href={instagramUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
               <img src="/icon.insta.svg" alt="Instagram" className="h-6 w-6 fill-[#C02042] hover:fill-[#901430]" />
             </a></Link>
