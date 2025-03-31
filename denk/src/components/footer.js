@@ -19,9 +19,9 @@ const Footer = () => {
             <Link href={githubUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
               <img src="/icon.github.svg" alt="GitHub" className="h-6 w-6 fill-[#C02042] hover:fill-[#901430]" />
             </a></Link>
-           {/* <Link href={linkedinUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
+            <Link href={linkedinUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
               <img src="/icon.linkedin.svg" alt="LinkedIn" className="h-6 w-6 fill-[#C02042] hover:fill-[#901430]" />
-            </a></Link> */  }
+            </a></Link> 
             <Link href={instagramUrl} legacyBehavior><a target="_blank" rel="noopener noreferrer">
               <img src="/icon.insta.svg" alt="Instagram" className="h-6 w-6 fill-[#C02042] hover:fill-[#901430]" />
             </a></Link>
